@@ -116,21 +116,21 @@ class Node:
 
         self.inbox = inbox
 
-        # ✅ NEW: Initialize individual priority queues for Task 2
+        #  NEW: Initialize individual priority queues for Task 2
         self.priority_queues = {
             "high": queue.Queue(),
             "medium": queue.Queue(),
             "low": queue.Queue()
         }
 
-        # ✅ NEW: Processing queue for Task 4
+        #  NEW: Processing queue for Task 4
         self.compute_queue = queue.Queue()
 
         self.buffer = simpy.Resource(env, capacity=1)
         self.max_queue_size = config.MAX_QUEUE_SIZE
 
         self.waiting_list = []
-        # ✅ NEW: Set UAV processing capacity if this is a drone
+        #  NEW: Set UAV processing capacity if this is a drone
         if sensor_drone_flag == 1:
             self.processing_capacity = round(np.random.uniform(2.0, 5.0), 2)
             self.simulator.metrics.uav_capacities.append(self.processing_capacity)
@@ -198,14 +198,8 @@ class Node:
                     """
 
                     # Set lambda (arrival rate) based on simulation time
-                    current_time_s = self.env.now / 1e6  # convert ns to seconds
+                    rate = 2.0  # low load 0.5, medium load 2.0, high load 6.0
 
-                    if current_time_s < 50:
-                        rate = 0.5  # low load
-                    elif current_time_s < 100:
-                        rate = 2.0  # medium load
-                    else:
-                        rate = 5.0  # high load
                     yield self.env.timeout(round(random.expovariate(rate) * 1e6))
 
                 GLOBAL_DATA_PACKET_ID += 1  # data packet id

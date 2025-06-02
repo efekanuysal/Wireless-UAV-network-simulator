@@ -125,7 +125,7 @@ class Metrics:
             file.write(f"Average end-to-end delay is: {e2e_delay} ms\n")
             file.write("\n--- Priority Class Delays (ms) ---\n")
             for priority, avg_delay in avg_delays.items():
-                file.write(f"Average {priority} priority delay: {avg_delay:.2f} ms\n")
+                file.write(f"Average {priority} priority delay: {avg_delay * 1000:.5f} µs\n")
                 file.write(f"{priority} priority packets count: {len(self.priority_delays[priority])}\n")
             file.write(f"Routing load is: {rl}\n")
             file.write(f"Average throughput is: {throughput} Kbps\n")
@@ -156,7 +156,7 @@ class Metrics:
         print('Average mac delay is: ', average_mac_delay, 'ms')
         print('\n--- Priority Class Delays (ms) ---')
         for priority, avg_delay in avg_delays.items():
-            print(f"Average {priority} priority delay: {avg_delay:.2f} ms")
+            print(f"Average {priority} priority delay: {avg_delay * 1000:.5f} µs")
             print(f"{priority} priority packets count: {len(self.priority_delays[priority])}")
         print('\n--- Packet-Level Statistics (Task 1) ---')
         print('Average Packet Size (MB):', avg_packet_size)

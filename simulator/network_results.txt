@@ -830,3 +830,227 @@ Average Wait Time Before Processing: 0.00030 ms
 Average Processing Time: 0.143 ms
 --------------------------------------------
 
+12-04-09_30-05-2025
+Total Arrived is: 12
+Totally sent: 41 data packets
+Packet delivery ratio is: 29.268292682926827%
+Average end-to-end delay is: 5.4295 ms
+
+--- Priority Class Delays (ms) ---
+Average high priority delay: 0.00 ms
+high priority packets count: 28
+Average medium priority delay: 0.00 ms
+medium priority packets count: 5
+Average low priority delay: 0.00 ms
+low priority packets count: 13
+Routing load is: 16.666666666666668
+Average throughput is: 1705.177324178852 Kbps
+Average hop count is: 1.1666666666666667
+Collision num is: 50
+Average MAC delay is: 124.72472727272729 ms
+
+--- Packet-Level Statistics (Task 1) ---
+Average Packet Size (MB): 1.79
+Priority Distribution: {'high': 25, 'medium': 5, 'low': 11}
+UAV Capacities: [3.43, 3.99, 3.08]
+Average UAV Capacity (MB/s): 3.5
+Dropped Packets (Capacity Constraint): 0
+Packets Dropped due to Capacity Limits: 9
+Total Offloaded Tasks: 0
+Total Locally Processed Tasks: 13
+Average Wait Time Before Processing: 0.00107 ms
+Average Processing Time: 0.172 ms
+--------------------------------------------
+
+12-06-50_30-05-2025
+Total Arrived is: 21
+Totally sent: 30 data packets
+Packet delivery ratio is: 70.0%
+Average end-to-end delay is: 4.840809523809524 ms
+
+--- Priority Class Delays (ms) ---
+Average high priority delay: 0.00 ms
+high priority packets count: 18
+Average medium priority delay: 0.00 ms
+medium priority packets count: 10
+Average low priority delay: 0.00 ms
+low priority packets count: 4
+Routing load is: 9.523809523809524
+Average throughput is: 1810.2535212486698 Kbps
+Average hop count is: 1.0
+Collision num is: 20
+Average MAC delay is: 47.191359999999996 ms
+
+--- Packet-Level Statistics (Task 1) ---
+Average Packet Size (MB): 1.57
+Priority Distribution: {'high': 17, 'medium': 9, 'low': 4}
+UAV Capacities: [3.8, 3.64, 3.98]
+Average UAV Capacity (MB/s): 3.81
+Dropped Packets (Capacity Constraint): 0
+Packets Dropped due to Capacity Limits: 1
+Total Offloaded Tasks: 0
+Total Locally Processed Tasks: 6
+Average Wait Time Before Processing: 0.00156 ms
+Average Processing Time: 0.230 ms
+--------------------------------------------
+
+12-12-53_30-05-2025
+Total Arrived is: 18
+Totally sent: 33 data packets
+Packet delivery ratio is: 54.54545454545454%
+Average end-to-end delay is: 5.080722222222223 ms
+
+--- Priority Class Delays (ms) ---
+Average high priority delay: 0.73 탎
+high priority packets count: 26
+Average medium priority delay: 0.56 탎
+medium priority packets count: 8
+Average low priority delay: 0.00 탎
+low priority packets count: 4
+Routing load is: 11.11111111111111
+Average throughput is: 1759.0544542829289 Kbps
+Average hop count is: 1.0555555555555556
+Collision num is: 50
+Average MAC delay is: 26.5795 ms
+
+--- Packet-Level Statistics (Task 1) ---
+Average Packet Size (MB): 1.96
+Priority Distribution: {'high': 22, 'medium': 7, 'low': 4}
+UAV Capacities: [4.1, 4.9, 2.4]
+Average UAV Capacity (MB/s): 3.8
+Dropped Packets (Capacity Constraint): 0
+Packets Dropped due to Capacity Limits: 8
+Total Offloaded Tasks: 0
+Total Locally Processed Tasks: 5
+Average Wait Time Before Processing: 0.00279 ms
+Average Processing Time: 0.404 ms
+--------------------------------------------
+
+13-13-24_30-05-2025
+Total Arrived is: 19
+Totally sent: 678 data packets
+Packet delivery ratio is: 2.8023598820058995%
+Average end-to-end delay is: 4.814 ms
+
+--- Priority Class Delays (ms) ---
+Average high priority delay: 0.43339 탎
+high priority packets count: 320
+Average medium priority delay: 0.29200 탎
+medium priority packets count: 220
+Average low priority delay: 0.03651 탎
+low priority packets count: 147
+Routing load is: 210.0
+Average throughput is: 1811.7851478871264 Kbps
+Average hop count is: 1.0
+Collision num is: 70
+Average MAC delay is: 111.67808571428571 ms
+
+--- Packet-Level Statistics (Task 1) ---
+Average Packet Size (MB): 1.62
+Priority Distribution: {'high': 312, 'medium': 220, 'low': 146}
+UAV Capacities: [3.35, 3.2, 3.43]
+Average UAV Capacity (MB/s): 3.33
+Dropped Packets (Capacity Constraint): 0
+Packets Dropped due to Capacity Limits: 262
+Total Offloaded Tasks: 0
+Total Locally Processed Tasks: 390
+Average Wait Time Before Processing: 0.00019 ms
+Average Processing Time: 0.164 ms
+--------------------------------------------
+
+16-16-22_30-05-2025
+Total Arrived is: 9
+Totally sent: 2910 data packets
+Packet delivery ratio is: 0.30927835051546393%
+Average end-to-end delay is: 10.182555555555554 ms
+
+--- Priority Class Delays (ms) ---
+Average high priority delay: 11.97759 탎
+high priority packets count: 1442
+Average medium priority delay: 13.09879 탎
+medium priority packets count: 884
+Average low priority delay: 13.71591 탎
+low priority packets count: 604
+Routing load is: 443.3333333333333
+Average throughput is: 1467.7463767098304 Kbps
+Average hop count is: 1.6666666666666667
+Collision num is: 50
+Average MAC delay is: 107.96422222222222 ms
+
+--- Packet-Level Statistics (Task 1) ---
+Average Packet Size (MB): 1.56
+Priority Distribution: {'high': 1435, 'medium': 882, 'low': 593}
+UAV Capacities: [4.97, 2.89, 4.09]
+Average UAV Capacity (MB/s): 3.98
+Dropped Packets (Capacity Constraint): 0
+Packets Dropped due to Capacity Limits: 1097
+Total Offloaded Tasks: 0
+Total Locally Processed Tasks: 1791
+Average Wait Time Before Processing: 0.01284 ms
+Average Processing Time: 0.152 ms
+--------------------------------------------
+
+17-19-10_30-05-2025
+Total Arrived is: 4156
+Totally sent: 8413 data packets
+Packet delivery ratio is: 49.39973849994057%
+Average end-to-end delay is: 5.022104908565929 ms
+
+--- Priority Class Delays (ms) ---
+Average high priority delay: 156.14847 탎
+high priority packets count: 4148
+Average medium priority delay: 134.77230 탎
+medium priority packets count: 2495
+Average low priority delay: 121.58836 탎
+low priority packets count: 1593
+Routing load is: 0.9600577478344562
+Average throughput is: 1781.8746864669358 Kbps
+Average hop count is: 1.0012030798845044
+Collision num is: 60
+Average MAC delay is: 5.7431360593017695 ms
+
+--- Packet-Level Statistics (Task 1) ---
+Average Packet Size (MB): 1.55
+Priority Distribution: {'high': 4243, 'medium': 2542, 'low': 1628}
+UAV Capacities: [4.46, 2.77, 3.28]
+Average UAV Capacity (MB/s): 3.5
+Dropped Packets (Capacity Constraint): 0
+Packets Dropped due to Capacity Limits: 1629
+Total Offloaded Tasks: 0
+Total Locally Processed Tasks: 2414
+Average Wait Time Before Processing: 0.29194 ms
+Average Processing Time: 0.156 ms
+--------------------------------------------
+
+16-09-53_02-06-2025
+Total Arrived is: 9
+Totally sent: 2870 data packets
+Packet delivery ratio is: 0.313588850174216%
+Average end-to-end delay is: 4.670666666666667 ms
+
+--- Priority Class Delays (ms) ---
+Average high priority delay: 19.39206 탎
+high priority packets count: 1434
+Average medium priority delay: 18.17572 탎
+medium priority packets count: 908
+Average low priority delay: 22.70882 탎
+low priority packets count: 546
+Routing load is: 443.3333333333333
+Average throughput is: 1856.3959433466914 Kbps
+Average hop count is: 1.0
+Collision num is: 80
+Average MAC delay is: 101.85594285714286 ms
+
+--- Packet-Level Statistics (Task 1) ---
+Average Packet Size (MB): 1.55
+Priority Distribution: {'high': 1428, 'medium': 898, 'low': 544}
+UAV Capacities: [3.56, 4.51, 4.96]
+Average UAV Capacity (MB/s): 4.34
+Dropped Packets (Capacity Constraint): 0
+Packets Dropped due to Capacity Limits: 1021
+Total Offloaded Tasks: 0
+Total Locally Processed Tasks: 1825
+Average Wait Time Before Processing: 0.01997 ms
+Average Processing Time: 0.146 ms
+--------------------------------------------
+
